@@ -1,0 +1,37 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: darkblue;
+}
+
+main {
+  margin-top: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 6rem);
+  grid-template-rows: repeat (4, 6rem);
+  gap: 2rem;
+  justify-content: center;
+  border-color: white;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  border: 2px solid white;
+  padding: 20px 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+img:active {
+  transform: scale(0.95);
+  transition: transform 0.5s;
+}
